@@ -1,0 +1,54 @@
+html, body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,0,249,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+}
+h1 {
+    font-size: 100pt;
+}
+p {
+    color: yellow;
+    font-size: 50pt;
+}
+img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.mega {
+    font-size: 50pt;
+    color: red;
+    border-radius: 30px;
+    background-color: white;
+    text-decoration: none;
+    left: ;
+    right: 0;
+    padding: 50px;
+    position: absolute;
+}
+.blink {
+    /* all credit to https://stackoverflow.com/a/23951515 */
+    animation:1s blinker linear infinite;
+    -webkit-animation:1s blinker linear infinite;
+    -moz-animation:1s blinker linear infinite;
+    }
+
+    @-moz-keyframes blinker {  
+        0% { opacity: 1.0; }
+        50% { opacity: 0.0; }
+        100% { opacity: 1.0; }
+        }
+
+    @-webkit-keyframes blinker {  
+        0% { opacity: 1.0; }
+        50% { opacity: 0.0; }
+        100% { opacity: 1.0; }
+        }
+
+    @keyframes blinker {  
+        0% { opacity: 1.0; }
+        50% { opacity: 0.0; }
+        100% { opacity: 1.0; }
+        }    
